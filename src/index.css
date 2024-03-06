@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.naveBar{
+  text-align: center;
+  list-style: none;
+  background-color:azure;
+  font-size: large;
+  padding: 2vh 9vw;
+  font-weight: 600;
+}
+.naveBar:hover{
+  background-color: rgba(253, 69, 69, 0.373);
+  cursor: pointer;
+}
+img{
+  width: 50vw;
+}
+.imag{
+  background-color: azure;
+  width: 100vw;
+  height: 50vh;
+  overflow: hidden;
+  text-align: center;
+}
+/* .imag:hover{
+  background-color: rgba(253, 69, 69, 0.373);
+} */
+.texxxt{
+  text-align: center;
+  margin: 10vh 0vh;
+  background-color: rgba(253, 69, 69, 0.373);
+  padding: 50px;
+  color: white;
+}
+button{
+  padding: 10px 30px;
+    margin: 30px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    font-weight: 600;
+}
+button:hover{
+  cursor: pointer;
+  background-color: azure;
+  color: black;
+}
+.margin{
+  margin: 45px 15px;
+}
+.margin:hover{
+  color: rgba(253, 69, 69, 0.373);
+}
+.center,.goku{
+  text-align: center;
+  margin: 45px 0;
+}
+.fooo{
+  padding: 1px 43vw;
+  background-color:azure;
+}
+h3{
+  color: rgba(253, 69, 69, 0.373);
+}
